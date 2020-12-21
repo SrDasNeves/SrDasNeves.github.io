@@ -5,28 +5,76 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <!--=========My Css files ==========-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--=========My Css files ==========-->
+
     <!--=========Css Bootstrap==========-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--=========Css Bootstrap==========-->
     
-    <!--=========My Css files ==========-->
-    <link rel="stylesheet" href="/css/style.css">
-    <!--=========My Css files ==========-->
-
-    <link rel="icon" type="Image/icon" href="/images/favicon.ico">
+    <link rel="icon" type="Image/icon" href="./css/images/favicon.ico">
 
     <title>Meu portfólio</title>
 </head>
 <body>
 
+<!--==================================nav-bar===============================================-->
+<nav class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand" href="index.html">
+    <img src="./css/images/heart-fill.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    Meu Portfólio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicío<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="BiggestProjects.html">Maiores projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contato</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Algumas outras coisas minhas!
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Meus servidores do discord.</a>
+            <a class="dropdown-item" href="#">Meus canais da twitch e youtube.</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--==================================(END) nav-bar===============================================-->
 
 
+<!--=====================     Main content from index         ====================================-->
+
+<!--==(start) alert==-->
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Olá Visitante!</strong> Este portfólio está em constante mudança, nada é/está terminado.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+<!--==(end)  alert==-->
 
 
+<!--==(start) main text==-->
+<div>
+<h1>Bem vindo ao meu portfólio!</h1>
+</div>
 
+<!--==(end)  main text ==-->
 
-
-
+<!--=====================    (END) Main content from index         ==============================-->
 
 
 
@@ -37,7 +85,7 @@
 
 
 <!--===========================================  My  js  files  ==============================================================-->
-<script src='/js/main.js'></script>
+<script src='js/main.js'></script>
 <!--===========================================bootstrap scripts==============================================================-->
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
