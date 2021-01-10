@@ -11,9 +11,21 @@ nav{
     font-family: 'Courier New', Courier, monospace;
     background-color:#4B0082;
 }
-
-.Titulo{
-    font-family: fantasy, monospace;
-    color:#33006F;
+.channels{
+    
     text-align: center;
+    background-color:rgba(175,47,255,1);
+}
+
+a:link{
+    color: antiquewhite;
+}
+
+a:visited{
+    color: gray;
+}
+
+.Announcement{
+    text-align: center;
+    background-color: rgba(106,0,207,1);
 }
